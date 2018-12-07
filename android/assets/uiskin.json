@@ -1,0 +1,74 @@
+{
+  "com.badlogic.gdx.graphics.Color": {
+    "white": { "r": 1, "g": 1, "b": 1, "a": 1 },
+    "black": { "r": 0, "g": 0, "b": 0, "a": 1 },
+    "blue":  { "r": 0, "g": 0, "b": 1, "a": 1 }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+    "default": {
+      "font": "regular_font"
+    },
+    "dialog_text": {
+      "font": "regular_font",
+      "fontColor": "black"
+    },
+    "dialog_bold_text": {
+      "font": "regular_bold_font",
+      "fontColor": "black"
+    },
+    "copyright_text": {
+        "font": "regular_font",
+        "fontColor": "black"
+    },
+    "privacy_text": {
+      "font": "regular_font",
+      "fontColor": "blue"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+    "default": {
+      "up": "menu_button",
+      "font": "regular_font"
+    },
+    "menu_button": {
+      "up": "menu_button",
+      "down": "menu_button_down",
+      "font": "regular_font"
+    },
+    "ok": {
+      "up": "green_button",
+      "down": "green_button_down",
+      "font": "regular_font"
+    },
+    "cancel": {
+      "up": "red_button",
+      "down": "red_button_down",
+      "font": "regular_font"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
+    "sound": {
+      "checkboxOn": "menuSoundOn",
+      "checkboxOff": "menuSoundOff",
+      "font": "regular_font"
+    },
+    "music": {
+      "checkboxOn": "menuMusicOn",
+      "checkboxOff": "menuMusicOff",
+      "font": "regular_font"
+    }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle": {
+    "default": {
+      "titleFont": "regular_font",
+      "background": "solved_bg",
+      "titleFontColor": "white"
+    },
+    "dialog": {
+      "titleFont": "small_font",
+      "background": "solved_bg",
+      "titleFontColor": "white",
+      "stageBackground": "pane_bg2"
+    }
+  }
+}
